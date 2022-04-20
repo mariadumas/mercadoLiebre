@@ -1,0 +1,559 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ebebeb;
+    font-family: "Roboto";
+    font-size: 12px;
+    min-width: 360px;
+}
+
+.main-header {
+    background-color: #EAC926;
+}
+
+.logo {
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 15px;
+    max-width: 50%;
+}
+
+.copy-header {
+    font-weight: 400;
+    text-align: left;
+    margin-top: 15px;
+    margin-right: 10px;
+
+}
+
+.main-header-top-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.hamburguer-button {
+    background-color: #1259c3;
+    color: white;
+    display: block;
+    max-width: 50px;
+    padding: 15px 0px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.search {
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 10px;
+    display: flex;
+    width: 50%;
+    margin-top: 10px;
+}
+
+
+.search input {
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 10px;
+    width: 100%;
+}
+
+
+.search button {
+    align-items: center;
+    background-color: white;
+    border: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: var(--main-dark-gray);
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+    width: 50px;
+}
+
+.main-navbar ul {
+    list-style: none;
+    margin-top: 30px;
+    padding: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.main-navbar a {
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 5px 0px;
+    font-size: 17px;
+}
+
+.main-navbar {
+    display: none;
+}
+
+.banner {
+    display: flex;
+    align-items: flex-end;
+    max-width: 100%;
+
+}
+
+main {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.titulares {
+    font-size: 24px;
+    color: #666;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.products-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product {
+    margin: 10px;
+}
+
+.precios,
+.descuentos {
+    width: 50%;
+}
+
+.desc-producto {
+    background-color: white;
+    border-top: solid 1px #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    position: relative;
+}
+
+.fa-truck {
+    color: #39b54a;
+    border-radius: 50%;
+    border: solid 1px #39b54a;
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+
+
+.precios {
+    font-size: 16px;
+    margin-top: 5px;
+    max-width: 30%;
+}
+
+.descuentos {
+    font-size: 16px;
+    color: #39b54a;
+    margin-top: 5px;
+    max-width: 70%;
+}
+
+.descripciones {
+    font-size: 16 px;
+    font-weight: bold;
+    color: #666;
+    margin-top: 30px;
+}
+
+
+img {
+    width: 100%;
+}
+
+
+footer {
+    width: 100%;
+    background-color: white;
+}
+
+.titular-footer {
+    text-align: center;
+    color: #666;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.texto-footer {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #666;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.tarjeta {
+    text-align: center;
+}
+
+.regalo {
+    text-align: center;
+
+}
+
+.escudo {
+    text-align: center;
+}
+
+.fa-credit-card {
+    font-size: 2em;
+    color: #1259c3;
+
+}
+
+
+.fa-gift {
+    font-size: 2em;
+    color: #1259c3;
+
+
+}
+
+.fa-user-shield {
+    font-size: 2em;
+    color: #1259c3;
+
+}
+
+.copyright {
+    color: #666;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.cajas-footer {
+    padding-top: 50px;
+}
+
+@media (min-width: 576px) {}
+
+
+@media (min-width: 768px) {
+    .main-header-top-bar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .search {
+        width: 33%;
+    }
+
+    .copy-header {
+        max-width: 350px;
+        width: 33%;
+        text-align: center;
+    }
+
+    .hamburguer-button {
+        display: none;
+    }
+
+    .main-navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main-navbar ul {
+        display: flex;
+
+    }
+
+    .main-navbar li {
+        margin: 0 7px;
+
+    }
+
+    .product {
+        margin-right: 8px;
+        margin-bottom: 15px;
+        width: 47%;
+    }
+
+
+
+
+
+@media (min-width: 1200px) {
+
+        .main-header-top-bar,
+        .main-navbar {
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .main-navbar li {
+            margin: 0 10px;
+        }
+
+        .main-header-top-bar {
+            align-items: center;
+        }
+
+        .main-navbar a {
+            font-size: 19px;
+            margin: 0 5px;
+
+        }
+
+        .copy-header {
+            max-width: none;
+            font-size: 18px;
+            font-weight: 400;
+            margin: 0;
+        }
+
+        .logo {
+            width: 250px;
+        }
+
+        .product {
+            margin-right: 8px;
+            width: 23%;
+        }
+
+        article:hover {
+            box-shadow: 0px 0px 10px rgb(100, 100, 100)
+        }
+
+        article:hover .fa-truck {
+            transform: rotateZ(-90deg);
+            transition: 1s;
+        }
+
+
+        .descripciones {
+            display: none;
+        }
+
+        article:hover .descripciones {
+            display: block;
+        }
+
+        .boton-login:hover {
+            background-color: #0022AA;
+            cursor: pointer;
+        }
+
+        .boton-enviar:hover {
+            background-color: #0022AA;
+            cursor: pointer;
+        }
+
+        .boton-borrar:hover {
+            background-color: #0022AA;
+            cursor: pointer;
+        }
+        
+
+        .cajas-footer {
+            display: flex;
+            padding: 60px;
+            justify-content: space-around;
+        }
+
+
+        .fa-credit-card:hover {
+            color: black;
+
+        }
+
+
+        .fa-gift:hover {
+            color: black;
+
+
+        }
+
+        .fa-user-shield:hover {
+            color: black;
+
+        }
+
+    }
+}
+
+
+/*Formularios*/
+
+.main-register {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    font-size: 14px;
+    box-sizing: content-box;
+}
+
+
+.input-barras {
+    border: lightgray solid 1px;
+    font-family: "Roboto";
+    color: -internal-light-dark(black, white);
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px 10px;
+    width: 90%;
+}
+
+.input-barras:invalid {
+    background-color: pink;
+}
+
+.input-barras:focus {
+    background-color: ghostwhite;
+}
+
+.label-nacimiento {
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 15px;
+    width: 40%;
+
+}
+
+
+.titulo-perfil {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    width: 40%;
+}
+
+.opciones-perfil {
+    display: inline;
+    margin-left: 100px;
+    margin-right: 20px;
+
+
+}
+
+
+.titulo-intereses {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+
+}
+
+.input-checkbox {
+    margin-left: 100px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.titulo-avatar {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+.input-avatar {
+    margin-left: 15px;
+    margin-bottom: 15px;
+    border-radius: 5%;
+    padding: 8px;
+}
+
+
+.main-login {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    font-size: 14px;
+    text-align: center;
+    box-sizing: content-box;
+}
+
+.div-botones-register {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boton-enviar,
+.boton-borrar {
+    background-color: #1259c3;
+    border: none;
+    border-radius: 5%;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding: 8px;
+    width: 30%;
+}
+
+
+
+.div-boton-login {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.boton-login {
+    background-color: #1259c3;
+    border: none;
+    color: white;
+    border-radius: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px;
+    width: 40vw;
+}
+
+.caja-login,
+.caja-register {
+    background-color: white;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+}
